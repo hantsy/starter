@@ -1,0 +1,54 @@
+repo_name: hantsy/starter
+report_id: b391ed680a23af3a64f94353222dd8e1
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-31T08:20:38+00:00'
+requested_by: jeyvison
+provider: github
+branch: master
+detected_tools_count: 4
+tools:
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/hantsy/starter
+  detection_source: Repo Metadata
+- name: Smarty
+  description: Template engine for PHP
+  website_url: http://www.smarty.net/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Templating Languages & Extensions
+  image_url: https://img.stackshare.io/service/3693/smarty.png
+  detection_source_url: https://github.com/hantsy/starter
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/hantsy/starter
+  detection_source: Repo Metadata
+- name: org.thymeleaf:thymeleaf
+  description: Modern server-side Java template engine for both web and standalone
+    environments
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/starter/blob/master/starter-core/pom.xml
+  detection_source: starter-core/pom.xml
+  last_updated_by: Jeyvison Nascimento
+  last_updated_on: 2020-04-22 13:59:47.000000000 Z
